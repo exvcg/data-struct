@@ -120,6 +120,7 @@ void postOrderIterativeS2(BSTNode *root)
 			BSTNode* lef = pop(&sl);
 			printf("%d  ",lef->item);//노드 출력
 			//만약 오른쪽 자식노드가 있다면 위에서 처리
+			//부모노드가 처리되기전에 오른쪽 자식노드가 있는지 확인하고 있다면 처리하는 방향으로 구현함
 		}
 	}
 }
